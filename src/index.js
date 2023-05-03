@@ -1,5 +1,6 @@
 import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from './components/Layout';
 import HomePage from './pages/Home';
 import AboutPage from './pages/About';
@@ -26,3 +27,5 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 //TODO make nav bar responsive
 //TODO add night day mode switch
+//TODO change moon icon to something squishier
+
