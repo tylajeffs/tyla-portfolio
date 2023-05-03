@@ -23,3 +23,6 @@ export default function App() {
 }
 
 ReactDOM.render(<App />, document.getElementById("root"));
+
+//TODO make nav bar responsive
+//TODO add night day mode switch
