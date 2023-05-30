@@ -9,7 +9,7 @@ function Navbar() {
         <div className="toggle">
             <Toggle />
         </div>
-        <div className="container">
+        <div className="nav-container">
             <div className="nav-elements">
             <ul>
                 <li>

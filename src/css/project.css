@@ -1,0 +1,29 @@
+.projects-container {
+    margin: 15px;
+    background-color: red;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  .blue-column {
+    background-color: blue;
+    height: 100px;
+  }
+  
+  .green-column {
+    background-color: green;
+    height: 100px;
+  }
