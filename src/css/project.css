@@ -1,29 +1,58 @@
 .projects-container {
-    margin: 15px;
-    background-color: red;
-    width: 100%;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: red;
+  padding-left: 25px;
+  padding-bottom: 25px;
 }
 
 .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
   
-  .column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-  }
+}
+  
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  text-align: left;
+}
 
-  .blue-column {
-    background-color: blue;
-    height: 100px;
-  }
-  
-  .green-column {
-    background-color: green;
-    height: 100px;
-  }
+.projects-container {
+  text-align: center;
+}
+
+.project-div {
+  border-radius: 8px;
+  padding-left: 30px;
+  color: white;
+}
+
+.tag-row {
+  display: flex;
+}
+
+.tag {
+  background-color: grey;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+
+
+.minesweeper {
+  background-color: lightblue;
+  height: 400px;
+  padding-top: 250px;
+}
+
+.green-column {
+  background-color: green;
+  height: 100px;
+}
