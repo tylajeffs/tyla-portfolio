@@ -4,6 +4,7 @@
   background-color: red;
   padding-left: 25px;
   padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 .row {
@@ -27,6 +28,7 @@
 }
 
 .project-div {
+  position: relative;
   border-radius: 8px;
   padding-left: 30px;
   color: white;
@@ -44,9 +46,25 @@
   margin-right: 10px;
 }
 
+.project-div:after {
+  content:'\A';
+  position:absolute;
+  width:100%; height:100%;
+  top:0; left:0;
+  border-radius: 8px;
+  background:linear-gradient(to bottom, transparent 0%, black 150%);
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.project-div:hover:after {
+  opacity:1;
+}
+
 
 
 .minesweeper {
+  position: relative;
   background-color: lightblue;
   height: 400px;
   padding-top: 250px;
