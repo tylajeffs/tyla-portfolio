@@ -1,6 +1,6 @@
 .projects-container {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 230px;
+  margin-right: 230px;
   background-color: red;
   padding-left: 25px;
   padding-bottom: 25px;
@@ -31,6 +31,7 @@
   position: relative;
   border-radius: 8px;
   padding-left: 30px;
+  margin-bottom: 25px;
   color: white;
 }
 
@@ -46,6 +47,24 @@
   margin-right: 10px;
 }
 
+.overlay {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  opacity: 0%;
+  transition: .5s ease;
+}
+
+.tall-project .overlay {
+  height: 30%;
+}
+
+.short-project .overlay {
+  height: 45%;
+}
+
 .project-div:after {
   content:'\A';
   position:absolute;
@@ -55,22 +74,50 @@
   background:linear-gradient(to bottom, transparent 0%, black 150%);
   opacity:0;
   transition: all 0.5s;
-  -webkit-transition: all 0.5s;
+  -webkit-transition: all 0.2s;
 }
 .project-div:hover:after {
   opacity:1;
 }
+.tall-project:hover .overlay {
+  height: 35%;
+  opacity: 100%;
+}
+.short-project:hover .overlay {
+  height: 50%;
+  opacity: 100%;
+}
 
+.tall-project {
+  position: relative;
+  height: 450px;
+}
 
+.short-project {
+  position: relative;
+  height: 300px;
+}
 
 .minesweeper {
-  position: relative;
   background-color: lightblue;
-  height: 400px;
-  padding-top: 250px;
 }
 
 .green-column {
   background-color: green;
-  height: 100px;
+}
+
+.project-3 {
+  background-color: purple;
+}
+
+.project-4 {
+  background-color: orange;
+}
+
+.project-5 {
+  background-color: greenyellow;
+}
+
+.project-6 {
+  background-color: blue;
 }
