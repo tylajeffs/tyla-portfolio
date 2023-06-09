@@ -10,9 +10,9 @@ function Projects() {
                 </div>
                 <div className='column'>
 
-                <div className='project-div short-project green-column'>
+                    <div className='project-div short-project green-column'>
                         <div className='overlay'>
-                            <h2 className='project-name'>Project 2</h2>
+                            <h2 className='project-name'> <a href="#">Project 2</a></h2>
                             <p className='project-description'>description</p>
                             <div className='tag-row'>
                                 <div className='tag'>Javascript</div>
@@ -24,7 +24,7 @@ function Projects() {
 
                     <div className='project-div tall-project project-3'>
                         <div className='overlay'>
-                            <h2 className='project-name'>Project 3</h2>
+                            <h2 className='project-name'> <a href="#">Project 3</a></h2>
                             <p className='project-description'>description</p>
                             <div className='tag-row'>
                                 <div className='tag'>Javascript</div>
@@ -35,7 +35,7 @@ function Projects() {
 
                     <div className='project-div short-project project-5'>
                         <div className='overlay'>
-                            <h2 className='project-name'>Project 5</h2>
+                            <h2 className='project-name'> <a href="#">Project 5</a></h2>
                             <p className='project-description'>despcription</p>
                             <div className='tag-row'>
                                 <div className='tag'>Javascript</div>
@@ -44,15 +44,13 @@ function Projects() {
                         </div>
                     </div>
 
-                    
-
                 </div>
 
                 <div className='column'>
 
                     <div className='project-div tall-project minesweeper'>
                         <div className='overlay'>
-                            <h2 className='project-name'>Minesweeper</h2>
+                            <h2 className='project-name'> <a href="#">Minesweeper</a></h2>
                             <p className='project-description'>recreation of the classic minesweeper</p>
                             <div className='tag-row'>
                                 <div className='tag'>Javascript</div>
@@ -63,7 +61,7 @@ function Projects() {
 
                     <div className='project-div tall-project project-4'>
                         <div className='overlay'>
-                            <h2 className='project-name'>Project 4</h2>
+                            <h2 className='project-name'> <a href="#">Project 4</a></h2>
                             <p className='project-description'>despcription</p>
                             <div className='tag-row'>
                                 <div className='tag'>Javascript</div>
@@ -74,7 +72,7 @@ function Projects() {
 
                     <div className='project-div short-project project-6'>
                         <div className='overlay'>
-                            <h2 className='project-name'>Project 6</h2>
+                            <h2 className='project-name'> <a href="#">Project 6</a></h2>
                             <p className='project-description'>despcription</p>
                             <div className='tag-row'>
                                 <div className='tag'>Javascript</div>

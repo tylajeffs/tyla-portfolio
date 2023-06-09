@@ -6,12 +6,20 @@
   padding-top: 25px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: hotpink;
+}
+
 .row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  
 }
   
 .column {
