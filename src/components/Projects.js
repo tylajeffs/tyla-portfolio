@@ -5,9 +5,8 @@ function Projects() {
     return (
         <div className='projects-container'>
             <div className='row'>
-                <div className='projects-filter'>
-                    all
-                </div>
+                <div className='projects-filter'></div>
+
                 <div className='column'>
 
                     <div className='project-div short-project green-column'>
@@ -18,7 +17,6 @@ function Projects() {
                                 <div className='tag'>Javascript</div>
                                 <div className='tag'>CSS</div>
                             </div>
-
                         </div>
                     </div>
 
