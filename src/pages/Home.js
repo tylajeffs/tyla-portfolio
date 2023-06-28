@@ -1,9 +1,16 @@
 import React from 'react'
+import "../css/home.css"
 
 function Home() {
     return (
         <div>
-            <h1>Home Page!</h1>
+            <div className="hero">
+
+                <h1 className="hero-text">Hi! My name is Tyla and I'm a developer...</h1>
+
+            </div>
+
+
         </div>
     )
 }
