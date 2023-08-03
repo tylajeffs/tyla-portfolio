@@ -1,10 +1,10 @@
 import React from "react";
-import "../css/footer.css";
+import "../css/about.css";
 
 function About() {
   return (
 
-    <div>
+    <div className="about-section">
         <h1>About Page!</h1>
 
         <h1>Aloha!</h1>

@@ -1,5 +1,7 @@
+@import "variables.css";
+
 .hero-background {
-    background-color: #FEECAE;
+    background-color: var(--light-yellow);
     height: 80vh;
     display: flex;
     justify-content: center;
