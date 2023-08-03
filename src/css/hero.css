@@ -1,0 +1,10 @@
+.hero-background {
+    background-color: #FEECAE;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    margin-top: 25vh;
+}

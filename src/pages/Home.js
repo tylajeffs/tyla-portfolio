@@ -1,16 +1,17 @@
 import React from 'react'
-import "../css/home.css"
 import ProjectComponent from '../components/Projects'
+import Hero from "../components/Hero"
+import AboutComponent from "../components/About"
 
 function Home() {
     return (
         <div>
-            <div className="hero">
+            <Hero />
 
-                <h1 className="hero-text">Hi! My name is Tyla and I'm a developer...</h1>
-
-            </div>
+            <AboutComponent />
+            
             <ProjectComponent />
+
 
 
         </div>
