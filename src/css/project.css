@@ -1,11 +1,14 @@
 @import "variables.css";
-
+body {
+  background-color: var(--darker-blue);
+}
 .projects-container {
   margin-left: 230px;
   margin-right: 230px;
   padding-left: 25px;
   padding-bottom: 25px;
   padding-top: 25px;
+  
 }
 
 a {
@@ -42,6 +45,7 @@ a:hover {
   padding-left: 30px;
   margin-bottom: 25px;
   color: white;
+
 }
 
 .tag-row {

@@ -1,7 +1,7 @@
 @import "variables.css";
 
 .footer {
-    background-color: green;
+    background-color: var(--light-purple);
     vertical-align: middle;
     height: 50px;
     padding-left: 20px;

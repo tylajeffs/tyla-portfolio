@@ -1,6 +1,7 @@
 @import "variables.css";
 
 .about-section {
-    background-color: #FAB76D;
+    background-color: var(--other-purple);
     height: 80vh;
+    color: white;
 }

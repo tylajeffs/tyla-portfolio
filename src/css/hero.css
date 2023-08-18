@@ -1,7 +1,7 @@
 @import "variables.css";
 
 .hero-background {
-    background-color: var(--light-yellow);
+    background-color: var(--light-purple);
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -9,4 +9,5 @@
 
 .hero-text {
     margin-top: 25vh;
+    color: black;
 }
