@@ -1,13 +1,30 @@
 @import "variables.css";
 
-.hero-background {
-    background-color: var(--light-purple);
-    height: 80vh;
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.hero {
+    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: var(--light-purple);
+    height: 80vh;
+    
 }
 
 .hero-text {
-    margin-top: 25vh;
+    position: absolute;
+    font-size: 2.5em;
     color: black;
+}
+
+.hero img {
+    position: absolute;
+    top: -300px;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
 }
