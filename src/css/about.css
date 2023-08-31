@@ -1,7 +1,14 @@
 @import "variables.css";
 
 .about-section {
-    background-color: var(--other-purple);
     height: 80vh;
+}
+
+.dark-mode .about-section {
+    background-color: var(--other-purple);
     color: white;
+}
+.light-mode .about-section {
+    background-color: var(--orange);
+    color: black;
 }

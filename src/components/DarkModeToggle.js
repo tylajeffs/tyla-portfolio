@@ -20,12 +20,12 @@ function DarkModeToggle() {
     useEffect(()=>{
         if(isDark===true){
             //add dark css
-            document.body.classList.add("dark");
-            document.body.classList.remove("light");
+            document.body.classList.add("dark-mode");
+            document.body.classList.remove("light-mode");
         } else {
             //delete dark css
-            document.body.classList.remove("dark");
-            document.body.classList.add("light");
+            document.body.classList.remove("dark-mode");
+            document.body.classList.add("light-mode");
         }
     })
 

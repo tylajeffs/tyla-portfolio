@@ -1,0 +1,9 @@
+@import "variables.css";
+
+.light-mode body {
+    background-color: var(--light-yellow);
+}
+
+.dark-mode body {
+    background-color: var(--light-purple);
+}

@@ -1,7 +1,6 @@
 @import "variables.css";
-body {
-  background-color: var(--darker-blue);
-}
+
+
 .projects-container {
   margin-left: 230px;
   margin-right: 230px;
