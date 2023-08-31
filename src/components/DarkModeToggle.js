@@ -29,13 +29,32 @@ function DarkModeToggle() {
         }
     })
 
+    //function to pick which color sun emoji to use
+    function SunEmoji() {
+        //check if it's dark or light mode
+        if(isDark===true) {
+            return <Sun color="white" size={27} id='sun'/>
+        } else {
+            return <Sun color="black" size={27} id='sun'/>
+        }
+    }
+
+    //function to pick which color moon emoji to use
+    function MoonEmoji() {
+        //check if it's dark or light mode
+        if(isDark===true) {
+            return <Moon color="white" size={22} id='moon'/>
+        } else {
+            return <Moon color="black" size={22} id='moon'/>
+        }
+    }
 
     return (
         <div className='toggle-container'>
-            <Sun color="white" size={27} id='sun'/>
+            <SunEmoji />
             <input type="checkbox" id="switch" onChange={()=> handleClick()} />
             <label for="switch">Toggle</label>
-            <Moon color="white" size={22} id='moon'/>
+            <MoonEmoji/>
         </div>
     )
 }

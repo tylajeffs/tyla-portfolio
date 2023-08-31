@@ -54,12 +54,12 @@
   font-weight: 400;
   text-decoration: none;
 }
-/* CHANGE THESE?*/
+
 .dark-mode .nav-elements ul a {
   color: white;
 }
 .light-mode .nav-elements ul a {
-  color: white;
+  color: black;
 }
 
 
