@@ -4,7 +4,7 @@ import { Moon } from "react-bootstrap-icons";
 import '../css/toggle.css'
 
 
-function Toggle() {
+function DarkModeToggle() {
 
     //check local storage for dark vs light mode user preference
     //if no preference, set light mode
@@ -12,16 +12,20 @@ function Toggle() {
 
     //function to handle toggle click
     const handleClick=()=> {
+        //switch theme to the opposite
         setIsDark(!isDark)
-        console.log("you clicked the button!");
     }
 
     //check to see what state the theme is and apply changes to HTML
     useEffect(()=>{
         if(isDark===true){
+            //add dark css
             document.body.classList.add("dark");
+            document.body.classList.remove("light");
         } else {
+            //delete dark css
             document.body.classList.remove("dark");
+            document.body.classList.add("light");
         }
     })
 
@@ -36,4 +40,4 @@ function Toggle() {
     )
 }
 
-export default Toggle
+export default DarkModeToggle

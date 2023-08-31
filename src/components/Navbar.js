@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import Toggle from "./Toggle";
+import DarkModeToggle from "./DarkModeToggle";
 import '../css/nav.css';
 
 function Navbar() {
   return (
     <nav className="navbar">
         <div className="toggle">
-            <Toggle />
+            <DarkModeToggle />
         </div>
         <div className="nav-container">
             <div className="nav-elements">
