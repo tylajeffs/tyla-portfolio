@@ -1,10 +1,18 @@
 @import "variables.css";
 
 .footer {
-    background-color: var(--light-purple);
     vertical-align: middle;
     height: 50px;
     padding-left: 20px;
     padding-top: 10px;
-    
+}
+
+.dark-mode .footer {
+    background-color: var(--light-purple);
+    color: black;
+}
+
+.light-mode .footer {
+    background-color: var(--light-yellow);
+    color: black;
 }
