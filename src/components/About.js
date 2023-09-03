@@ -22,7 +22,17 @@ function About() {
 
   return (
     <div className="about-section">
+
+
         <div className="slider">
+            <input type="range" min="0" max="100" step="25" list="steplist"/>
+            <datalist id="steplist">
+                <option>0</option>
+                <option>25</option>
+                <option>50</option>
+                <option>75</option>
+                <option>100</option>
+            </datalist>
         </div>
 
         <div className="bio">

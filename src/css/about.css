@@ -2,6 +2,7 @@
 
 .about-section {
     height: 80vh;
+    padding-top: 50px;
 }
 
 .dark-mode .about-section {
