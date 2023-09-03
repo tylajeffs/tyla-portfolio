@@ -16,8 +16,6 @@ function Hero() {
             <img src={cloudll}/>
             <img src={cloudlr}/>
 
-           
-
         </div>
     )
 }
