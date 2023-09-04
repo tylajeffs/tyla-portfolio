@@ -1,7 +1,55 @@
 import React from "react";
+import Box from '@mui/material/Box';
+import Slider from '@mui/material/Slider';
 import "../css/about.css";
 
+
 function About() {
+
+
+    //array of all the options/labels for the bio length slider
+    const options = [
+        {
+          value: 0,
+          label: 'Shortest',
+        },
+        {
+          value: 25,
+          label: 'Short',
+        },
+        {
+          value: 50,
+          label: 'Normal',
+        },
+        {
+          value: 75,
+          label: 'Long',
+        },
+        {
+          value: 100,
+          label: 'Longest',
+        },
+    ];
+
+
+
+    //function to create the slider
+    function createSlider() {
+        return (
+          <Box sx={{ width: 600 }}>
+            <Slider
+              aria-label="Bio Length"
+              defaultValue={50}
+              step={25}
+              valueLabelDisplay="off"
+              marks={options}
+            />
+          </Box>
+        );
+      }
+
+
+
 
     //function to decide which length of bio to render
     function renderBio(param) {
@@ -19,25 +67,30 @@ function About() {
         }
     }
 
+    //function to actually render the bio 
+    function render() {
+        return(
+            <div>
+                {renderBio('short')}
+            </div>
+        )
+    }
+
 
   return (
     <div className="about-section">
 
 
-        <div className="slider">
-            <input type="range" min="0" max="100" step="25" list="steplist"/>
-            <datalist id="steplist">
-                <option>0</option>
-                <option>25</option>
-                <option>50</option>
-                <option>75</option>
-                <option>100</option>
-            </datalist>
-        </div>
+      {createSlider()}
 
-        <div className="bio">
-            {renderBio('longest')}
-        </div>
+      <div className="bio">
+          {renderBio('longest')}
+      </div>
+
+      <div>
+          {render()}
+      </div>
+
 
     </div>
 

@@ -3,6 +3,7 @@
 .about-section {
     height: 80vh;
     padding-top: 50px;
+    padding-left: 50px;
 }
 
 .dark-mode .about-section {
