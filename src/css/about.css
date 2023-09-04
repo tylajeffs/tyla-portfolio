@@ -4,6 +4,9 @@
     height: 80vh;
     padding-top: 50px;
     padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
 
 .dark-mode .about-section {
@@ -14,3 +17,14 @@
     background-color: var(--orange);
     color: black;
 }
+
+/* change the color of the slider */
+.bio-slider {
+    color: white !important;
+}
+
+/* change the color of the slider labels */
+.bio-slider .MuiSlider-markLabel {
+    color: black !important;
+}
+

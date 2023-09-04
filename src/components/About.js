@@ -1,6 +1,7 @@
 import React from "react";
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useState } from 'react';
 import "../css/about.css";
 
@@ -15,6 +16,25 @@ function About() {
     setSliderValue(sliderValue);
     renderBio(sliderValue);
   };
+
+
+  // //custom color palette for the slider
+  // const theme = createTheme({
+  //   palette: {
+  //     light: {
+  //       main: '#FF5733',
+  //       // light: will be calculated from palette.primary.main,
+  //       // dark: will be calculated from palette.primary.main,
+  //       // contrastText: will be calculated to contrast with palette.primary.main
+  //     },
+  //     dark: {
+  //       main: '#ffffff',
+  //       //light: '#F5EBFF',
+  //       // dark: will be calculated from palette.secondary.main,
+  //       //contrastText: '#47008F',
+  //     },
+  //   },
+  // });
 
 
   //array of all the options/labels for the bio length slider
@@ -46,14 +66,18 @@ function About() {
   function createSlider() {
       return (
         <Box sx={{ width: 600 }}>
-          <Slider
-            aria-label="Bio Length"
-            value={sliderValue}
-            step={25}
-            valueLabelDisplay="off"
-            marks={options}
-            onChange={changeSliderValue}
-          />
+          
+            <Slider
+              className="bio-slider"
+              aria-label="Bio Length"
+              size="large"
+              value={sliderValue}
+              step={25}
+              valueLabelDisplay="off"
+              marks={options}
+              onChange={changeSliderValue}
+            />
+
         </Box>
       );
     }
@@ -79,7 +103,7 @@ function About() {
   //function to actually render the bio 
   function renderBio(param) {
       return(
-          <div>
+          <div className="child">
               {selectBioLength(param)}
           </div>
       )
