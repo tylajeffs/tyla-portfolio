@@ -13,14 +13,14 @@ input[type=checkbox]{
   label {
     cursor: pointer;
     text-indent: -9999px;
+    background: var(--orange);
     width: 50px;
     height: 25px;
-    background: grey;
     display: block;
     border-radius: 100px;
     position: relative;
   }
-  
+
   label:after {
     content: '';
     position: absolute;
@@ -34,7 +34,7 @@ input[type=checkbox]{
   }
   
   input:checked + label {
-    background: #bada55;
+    background: var(--other-purple);
   }
   
   input:checked + label:after {
