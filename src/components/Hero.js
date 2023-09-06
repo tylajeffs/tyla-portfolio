@@ -11,7 +11,7 @@ function Hero() {
     return (
         <div className="hero">
 
-            <h1 className="hero-text">Hey! I'm Tyla</h1>
+            <h1 className="hero-text title-font">Hey! I'm Tyla</h1>
             
             <img src={cloudll} className='floating-left'/>
             <img src={cloudlr} className='floating-right'/>

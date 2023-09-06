@@ -24,6 +24,9 @@ function Navbar() {
                 <li>
                 <Link to="/contact">Contact</Link>
                 </li>
+                <li>
+                <Link to="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener">Github</Link>
+                </li>
             </ul>
 
             </div>

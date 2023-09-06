@@ -3,7 +3,10 @@ import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useState } from 'react';
+import FunResume from '../assets/funResume.pdf';
+import BoringResume from '../assets/boringResume.pdf';
 import "../css/about.css";
+import { Link } from "react-bootstrap-icons";
 
 
 function About() {
@@ -117,6 +120,31 @@ function About() {
       {createSlider()}
 
       {renderBio(sliderValue)}
+
+      <div className="contact-section">
+        <a
+          href={FunResume}
+          download="TylaJeffsCV(fun!)"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>CV (fun)</button>
+        </a>
+
+        <a
+          href={BoringResume}
+          download="TylaJeffsCV(boring)"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>CV (boring)</button>
+        </a>
+
+        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button>github</button> </a>
+
+        <a href="mailto:tylajeffs@gmail.com" target="_blank" rel="noreferrer noopener"><button>tylajeffs@gmail.com</button></a>
+
+      </div>
 
     </div>
   );

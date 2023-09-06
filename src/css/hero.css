@@ -42,6 +42,8 @@ body {
     pointer-events: none;
 }
 
+
+
 .floating-left { 
     animation-name: floating-left;
     animation-duration: 7s;
