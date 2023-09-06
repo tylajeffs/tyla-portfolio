@@ -13,8 +13,8 @@ function Hero() {
 
             <h1 className="hero-text">Hey! I'm Tyla</h1>
             
-            <img src={cloudll}/>
-            <img src={cloudlr}/>
+            <img src={cloudll} className='floating-left'/>
+            <img src={cloudlr} className='floating-right'/>
 
         </div>
     )

@@ -41,3 +41,30 @@ body {
     width: 100%;
     pointer-events: none;
 }
+
+.floating-left { 
+    animation-name: floating-left;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating-left {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(30px, 0); }
+    100%   { transform: translate(-0px, 0); }   
+}
+
+.floating-right { 
+    animation-name: floating-right;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-top: 5px;
+}
+
+@keyframes floating-right {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(-30px, 0); }
+    100%   { transform: translate(-0px, 0); }   
+}

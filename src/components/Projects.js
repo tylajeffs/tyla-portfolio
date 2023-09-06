@@ -46,8 +46,8 @@ function Projects() {
                             <h2 className='project-name'> <a href="https://github.com/tylajeffs/i18nSquaresApp" target="_blank" rel="noreferrer noopener">Bouncing Squares</a></h2>
                             <p className='project-description'>An Android game with bouncing squares that must be tapped in the correct order</p>
                             <div className='tag-row'>
-                                <div className='tag'>Javascript</div>
-                                <div className='tag'>CSS</div>
+                                <div className='tag'>Android Studio</div>
+                                <div className='tag'>Java</div>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ function Projects() {
                     </div>
 
 
-                    /**HELP, FINISH ADDING LINK HERE */
+                    {/* ADD LINK HERE */}
                     <div className='project-div short-project project-6'>
                         <div className='overlay'>
                             <h2 className='project-name'> <a href="#" target="_blank" rel="noreferrer noopener">Flower Shop eCommerce</a></h2>
