@@ -1,5 +1,7 @@
 import React from 'react'
+import portfolioVideo from '../assets/testVideo.mp4'
 import '../css/project.css'
+
 
 function Projects() {
     return (
@@ -10,6 +12,7 @@ function Projects() {
                 <div className='column'>
 
                     <div className='project-div short-project green-column'>
+                        
                         <div className='overlay'>
                             <h2 className='project-name'> <a href="#">Project 2</a></h2>
                             <p className='project-description'>description</p>
@@ -20,11 +23,17 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div className='project-div tall-project project-3'>
+                    <div className='project-div tall-project portfolio'>
+
+                        <video autoPlay loop muted className='background-video'>
+                            <source src={portfolioVideo} type='video/mp4'/>
+                        </video>
+                        
                         <div className='overlay'>
-                            <h2 className='project-name'> <a href="#">Project 3</a></h2>
-                            <p className='project-description'>description</p>
+                            <h2 className='project-name'> <a href="#">Personal Portfolio</a></h2>
+                            <p className='project-description'>That's right, you're looking at it ;)</p>
                             <div className='tag-row'>
+                                <div className='tag'>React</div>
                                 <div className='tag'>Javascript</div>
                                 <div className='tag'>CSS</div>
                             </div>
@@ -49,7 +58,7 @@ function Projects() {
                     <div className='project-div tall-project minesweeper'>
                         <div className='overlay'>
                             <h2 className='project-name'> <a href="#">Minesweeper</a></h2>
-                            <p className='project-description'>recreation of the classic minesweeper</p>
+                            <p className='project-description'>Recreation of the classic minesweeper with fun themes</p>
                             <div className='tag-row'>
                                 <div className='tag'>Javascript</div>
                                 <div className='tag'>CSS</div>

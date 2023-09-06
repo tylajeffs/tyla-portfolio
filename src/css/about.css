@@ -24,7 +24,10 @@
 }
 
 /* change the color of the slider labels */
-.bio-slider .MuiSlider-markLabel {
+.light-mode .bio-slider .MuiSlider-markLabel {
     color: black !important;
+}
+.dark-mode .bio-slider .MuiSlider-markLabel {
+    color: white !important;
 }
 
