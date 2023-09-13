@@ -1,5 +1,9 @@
 @import "variables.css";
 
+html {
+    scroll-behavior: smooth;
+}
+
 .light-mode body {
     background-color: var(--light-yellow);
 }

@@ -5,7 +5,7 @@ import '../css/project.css'
 
 function Projects() {
     return (
-        <div className='projects-container'>
+        <div className= 'projects-container' id="project-section">
             <div className='row'>
                 <div className='projects-filter'></div>
 

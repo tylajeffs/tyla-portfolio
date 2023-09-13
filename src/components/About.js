@@ -115,7 +115,7 @@ function About() {
 
 
   return (
-    <div className="about-section">
+    <div className="about-section" id="about-section">
 
       {createSlider()}
 
@@ -140,10 +140,11 @@ function About() {
           <button>CV (boring)</button>
         </a>
 
-        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button>github</button> </a>
-
         <a href="mailto:tylajeffs@gmail.com" target="_blank" rel="noreferrer noopener"><button>tylajeffs@gmail.com</button></a>
 
+        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button>github</button> </a>
+
+        
       </div>
 
     </div>
