@@ -2,9 +2,8 @@
 
 .about-section {
     height: 80vh;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -15,19 +14,25 @@
     color: white;
 }
 .light-mode .about-section {
-    background-color: var(--orange);
+    background-color: white;
     color: black;
 }
 
-/* change the color of the slider */
+/* LIGHT MODE change the color of the slider */
 .bio-slider {
-    color: white !important;
+    color: var(--orange) !important;
+}
+/* DARK MODE change the color of the slider */
+.bio-slider {
+    color: var(--light-purple) !important;
 }
 
-/* change the color of the slider labels */
+/* LIGHT MODE change the color of the slider text labels */
 .light-mode .bio-slider .MuiSlider-markLabel {
     color: black !important;
 }
+
+/* DARK MODE change the color of the slider text labels */
 .dark-mode .bio-slider .MuiSlider-markLabel {
     color: white !important;
 }
@@ -37,4 +42,33 @@
     justify-content: space-around;
     width: 90vw;
     margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.pic-section {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1.5;
+    height: 600px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+    align-items: center;
+    height: 600px;
+    padding-top: 50px;
+}
+
+#headshot-pic {
+    width: 100%;
 }

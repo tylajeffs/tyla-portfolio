@@ -5,8 +5,9 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useState } from 'react';
 import FunResume from '../assets/funResume.pdf';
 import BoringResume from '../assets/boringResume.pdf';
-import "../css/about.css";
 import { Download } from "react-bootstrap-icons";
+import Headshot from "../assets/Bioimg.png";
+import "../css/about.css";
 
 
 function About() {
@@ -68,7 +69,7 @@ function About() {
   //function to create the slider
   function createSlider() {
       return (
-        <Box sx={{ width: 600 }}>
+        <Box sx={{ width: 500 }}>
           
             <Slider
               className="bio-slider"
@@ -116,10 +117,23 @@ function About() {
 
   return (
     <div className="about-section" id="about-section">
+      <div className="row">
+        <div className="pic-section">
+          <img src={Headshot} id="headshot-pic"></img>
+        </div>
+        <div className="bio">
 
-      {createSlider()}
+          {renderBio(sliderValue)}
 
-      {renderBio(sliderValue)}
+          {createSlider()}
+
+        
+
+        </div>
+      </div>
+
+
+      
 
       <div className="contact-section">
         <a
