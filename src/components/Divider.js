@@ -1,12 +1,11 @@
 import React from "react";
-import "../css/footer.css";
+import "../css/divider.css";
 
 function Divider() {
   return (
 
-    <div className="divider">
-        THIS IS A PLACEHOLDER
-
+    <div className="fixed-bg">
+        <div className="empty"></div>
     </div>
 
   );
