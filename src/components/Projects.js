@@ -1,5 +1,6 @@
 import React from 'react'
 import portfolioVideo from '../assets/testVideo.mp4'
+import JavaFileSystemImage from '../assets/JavaFileSystem2.png'
 import '../css/project.css'
 
 
@@ -68,11 +69,14 @@ function Projects() {
                     </div>
 
                     <div className='project-div tall-project project-4'>
+
+                        <img src={JavaFileSystemImage} className='background-img'/>
+
                         <div className='overlay'>
                             <h2 className='project-name'> <a href="https://github.com/tylajeffs/javaFileSystemTreeMap" target="_blank" rel="noreferrer noopener">File System Tree Maps</a></h2>
-                            <p className='project-description'>A Java project that accesses your computer files and builds a treemap</p>
+                            <p className='project-description'>A Java project that accesses local computer files and builds a treemap</p>
                             <div className='tag-row'>
-                                <div className='tag'>Javascript</div>
+                                <div className='tag'>Java</div>
                                 <div className='tag'>CSS</div>
                             </div>
                         </div>

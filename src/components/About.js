@@ -6,7 +6,7 @@ import { useState } from 'react';
 import FunResume from '../assets/funResume.pdf';
 import BoringResume from '../assets/boringResume.pdf';
 import "../css/about.css";
-import { Link } from "react-bootstrap-icons";
+import { Download } from "react-bootstrap-icons";
 
 
 function About() {
@@ -128,7 +128,7 @@ function About() {
           target="_blank"
           rel="noreferrer"
         >
-          <button>CV (fun)</button>
+          <button> <Download color="black" size={15}/> Resume (fun)</button>
         </a>
 
         <a
@@ -137,7 +137,7 @@ function About() {
           target="_blank"
           rel="noreferrer"
         >
-          <button>CV (boring)</button>
+          <button> <Download color="black" size={15}/> Resume (boring)</button>
         </a>
 
         <a href="mailto:tylajeffs@gmail.com" target="_blank" rel="noreferrer noopener"><button>tylajeffs@gmail.com</button></a>
