@@ -1,7 +1,6 @@
 import React from "react";
 import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useState } from 'react';
 import FunResume from '../assets/funResume.pdf';
 import BoringResume from '../assets/boringResume.pdf';
@@ -20,26 +19,6 @@ function About() {
     setSliderValue(sliderValue);
     renderBio(sliderValue);
   };
-
-
-  // //custom color palette for the slider
-  // const theme = createTheme({
-  //   palette: {
-  //     light: {
-  //       main: '#FF5733',
-  //       // light: will be calculated from palette.primary.main,
-  //       // dark: will be calculated from palette.primary.main,
-  //       // contrastText: will be calculated to contrast with palette.primary.main
-  //     },
-  //     dark: {
-  //       main: '#ffffff',
-  //       //light: '#F5EBFF',
-  //       // dark: will be calculated from palette.secondary.main,
-  //       //contrastText: '#47008F',
-  //     },
-  //   },
-  // });
-
 
   //array of all the options/labels for the bio length slider
   const options = [
@@ -64,7 +43,6 @@ function About() {
         label: 'Longest',
       },
   ];
-
 
   //function to create the slider
   function createSlider() {
@@ -103,7 +81,6 @@ function About() {
       }
   }
 
-
   //function to actually render the bio 
   function renderBio(param) {
       return(
@@ -114,7 +91,7 @@ function About() {
   }
 
 
-
+  //now actually build the page :D
   return (
     <div className="about-section" id="about-section">
       <div className="row">

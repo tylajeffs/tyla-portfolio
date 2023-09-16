@@ -18,24 +18,55 @@
     color: black;
 }
 
-/* LIGHT MODE change the color of the slider */
-.bio-slider {
+
+/* LIGHT MODE change the slider root color */
+.light-mode .MuiSlider-root {
     color: var(--orange) !important;
 }
-/* DARK MODE change the color of the slider */
-.bio-slider {
+/* DARK MODE change the slider root color */
+.dark-mode .MuiSlider-root {
     color: var(--light-purple) !important;
+}
+
+/* LIGHT MODE set the slider thumb shadow color (orange), size, and opacity */
+.light-mode .MuiSlider-thumb.Mui-focusVisible {
+    box-shadow: 0 0 0 8px rgba(255, 165, 0, 0.15) !important;
+}
+.light-mode .MuiSlider-thumb:focus {
+    box-shadow: 0 0 0 8px rgba(255, 165, 0, 0.15) !important;
+}
+.light-mode .MuiSlider-thumb:hover {
+    box-shadow: 0 0 0 8px rgba(255, 165, 0, 0.25) !important;
+}
+.light-mode .MuiSlider-thumb:active {
+    box-shadow: 0 0 0 12px rgba(255, 165, 0, 0.25) !important;
+}
+
+/* DARK MODE set the slider thumb shadow color (light purple), size, and opacity */
+.dark-mode .MuiSlider-thumb.Mui-focusVisible {
+    box-shadow: 0 0 0 8px rgba(207, 184, 210, 0.2) !important;
+}
+.dark-mode .MuiSlider-thumb:focus {
+    box-shadow: 0 0 0 8px rgba(207, 184, 210, 0.2) !important;
+}
+.dark-mode .MuiSlider-thumb:hover {
+    box-shadow: 0 0 0 8px rgba(207, 184, 210, 0.3) !important;
+}
+.dark-mode .MuiSlider-thumb:active {
+    box-shadow: 0 0 0 12px rgba(207, 184, 210, 0.3) !important;
 }
 
 /* LIGHT MODE change the color of the slider text labels */
 .light-mode .bio-slider .MuiSlider-markLabel {
     color: black !important;
 }
-
 /* DARK MODE change the color of the slider text labels */
 .dark-mode .bio-slider .MuiSlider-markLabel {
     color: white !important;
 }
+
+
+
 
 .contact-section {
     display: flex;
