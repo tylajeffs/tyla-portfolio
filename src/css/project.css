@@ -2,12 +2,18 @@
 
 
 .projects-container {
-  margin-left: 230px;
-  margin-right: 230px;
-  padding-left: 25px;
+  padding-left: 255px;
+  padding-right: 230px;
   padding-bottom: 25px;
   padding-top: 25px;
-  
+  text-align: center;
+}
+
+.light-mode .projects-container {
+  background-color: white;
+}
+.dark-mode .projects-container {
+  background-color: black;
 }
 
 a {
@@ -34,9 +40,7 @@ a:hover {
   text-align: left;
 }
 
-.projects-container {
-  text-align: center;
-}
+
 
 .project-div {
   position: relative;

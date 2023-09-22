@@ -104,8 +104,6 @@ function About() {
 
           {createSlider()}
 
-        
-
         </div>
       </div>
 
@@ -119,7 +117,7 @@ function About() {
           target="_blank"
           rel="noreferrer"
         >
-          <button> <Download color="black" size={15}/> Resume (fun)</button>
+          <button className="button"> <Download color="black" size={15}/> Resume (fun)</button>
         </a>
 
         <a
@@ -128,12 +126,12 @@ function About() {
           target="_blank"
           rel="noreferrer"
         >
-          <button> <Download color="black" size={15}/> Resume (boring)</button>
+          <button className="button"> <Download color="black" size={15}/> Resume (boring)</button>
         </a>
 
-        <a href="mailto:tylajeffs@gmail.com" target="_blank" rel="noreferrer noopener"><button>tylajeffs@gmail.com</button></a>
+        <a href="mailto:tylajeffs@gmail.com" target="_blank" rel="noreferrer noopener"><button className="button">tylajeffs@gmail.com</button></a>
 
-        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button>github</button> </a>
+        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="button">github</button> </a>
 
         
       </div>

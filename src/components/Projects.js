@@ -1,5 +1,6 @@
 import React from 'react'
 import portfolioVideo from '../assets/testVideo.mp4'
+import appVideo from '../assets/appvideo.mp4'
 import JavaFileSystemImage from '../assets/JavaFileSystem2.png'
 import '../css/project.css'
 
@@ -43,6 +44,11 @@ function Projects() {
                     </div>
 
                     <div className='project-div short-project project-5'>
+
+                        <video autoPlay loop muted className='background-video'>
+                            <source src={appVideo} type='video/mp4'/>
+                        </video>
+
                         <div className='overlay'>
                             <h2 className='project-name'> <a href="https://github.com/tylajeffs/i18nSquaresApp" target="_blank" rel="noreferrer noopener">Bouncing Squares</a></h2>
                             <p className='project-description'>An Android game with bouncing squares that must be tapped in the correct order</p>
