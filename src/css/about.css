@@ -14,7 +14,7 @@
     color: white;
 }
 .light-mode .about-section {
-    background-color: #FFFAEB;
+    background-color: white;
     color: black;
 }
 
@@ -72,7 +72,7 @@
     display: flex;
     justify-content: space-around;
     width: 90vw;
-    margin-top: 50px;
+    margin-top: 6vh;
 }
 
 .row {
@@ -87,7 +87,7 @@
     flex-direction: column;
     flex-basis: 100%;
     flex: 1.25;
-    height: 500px;
+    height: 61vh;
 }
 
 .bio {
@@ -96,7 +96,7 @@
     flex-basis: 100%;
     flex: 2.25;
     align-items: center;
-    height: 500px;
+    height: 61vh;
     padding-top: 50px;
 }
 
@@ -105,7 +105,6 @@
 }
 
 .button {
-    background-color: var(--light-yellow);
     border: none;
     color: black;
     padding: 10px 20px;
@@ -115,6 +114,12 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 20px;
+}
+.light-mode .button {
+    background-color: var(--light-yellow);
+}
+.dark-mode .button {
+    background-color: white;
 }
 
 .button:hover {

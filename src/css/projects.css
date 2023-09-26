@@ -4,10 +4,10 @@
 .projects-container {
   padding-left: 255px;
   padding-right: 230px;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding-bottom: 15vh;
+  padding-top: 15vh;
   text-align: center;
-  margin-bottom: 10vh;
+  
 }
 
 .light-mode .projects-container {
@@ -20,10 +20,13 @@
 a {
   text-decoration: none;
   color: white;
+  transition: all .2s;
+
 }
 
 a:hover {
-  color: hotpink;
+  color: var(--orange);
+  transform: scale(1.1); 
 }
 
 .row {
@@ -82,6 +85,7 @@ a:hover {
   height: 30%;
 }
 
+
 .short-project .overlay {
   height: 45%;
 }
@@ -104,19 +108,27 @@ a:hover {
   height: 35%;
   opacity: 100%;
 }
+.tall-project.long-text:hover .overlay {
+  height: 40%;
+  opacity: 100%;
+}
 .short-project:hover .overlay {
   height: 50%;
+  opacity: 100%;
+}
+.short-project.long-text:hover .overlay {
+  height: 62%;
   opacity: 100%;
 }
 
 .tall-project {
   position: relative;
-  height: 450px;
+  height: 55vh;
 }
 
 .short-project {
   position: relative;
-  height: 300px;
+  height: 35vh;
 }
 
 .background-video {
@@ -139,22 +151,7 @@ a:hover {
   background-color: lightblue;
 }
 
-.green-column {
-  background-color: green;
-}
-
-.portfolio {
-  background-color: purple;
-}
-
-.project-4 {
-  background-color: orange;
-}
-
-.project-5 {
-  background-color: greenyellow;
-}
-
 .project-6 {
   background-color: blue;
 }
+

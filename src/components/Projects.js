@@ -2,7 +2,7 @@ import React from 'react'
 import portfolioVideo from '../assets/testVideo.mp4'
 import appVideo from '../assets/appvideo.mp4'
 import JavaFileSystemImage from '../assets/JavaFileSystem2.png'
-import RefugeeImage from '../assets/DependencyWheel.png'
+import RefugeeImage from '../assets/refugeeimg.png'
 import '../css/projects.css'
 
 
@@ -14,9 +14,9 @@ function Projects() {
 
                 <div className='column'>
 
-                    <div className='project-div short-project green-column'>
+                    <div className='project-div short-project long-text'>
 
-                    <img src={RefugeeImage} className='background-img'/>
+                    <img src={RefugeeImage} className='background-img' id='refugeeimg'/>
                         
                         <div className='overlay'>
                             <h2 className='project-name'> <a href="https://github.com/tylajeffs/refugee-project" target="_blank" rel="noreferrer noopener">Refugee Data Visualization</a></h2>
@@ -46,7 +46,7 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div className='project-div short-project project-5'>
+                    <div className='project-div short-project long-text'>
 
                         <video autoPlay loop muted className='background-video'>
                             <source src={appVideo} type='video/mp4'/>
@@ -77,7 +77,7 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div className='project-div tall-project project-4'>
+                    <div className='project-div tall-project long-text'>
 
                         <img src={JavaFileSystemImage} className='background-img'/>
 
@@ -93,7 +93,7 @@ function Projects() {
 
 
                     {/* ADD LINK HERE */}
-                    <div className='project-div short-project project-6'>
+                    <div className='project-div short-project project-6 long-text'>
                         <div className='overlay'>
                             <h2 className='project-name'> <a href="#" target="_blank" rel="noreferrer noopener">Flower Shop eCommerce</a></h2>
                             <p className='project-description'>description</p>

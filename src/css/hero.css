@@ -36,7 +36,7 @@ body {
 
 .hero img {
     position: absolute;
-    top: -300px;
+    top: -37vh;
     left: 0;
     width: 100%;
     pointer-events: none;
