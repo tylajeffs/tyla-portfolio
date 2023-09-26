@@ -5,7 +5,7 @@ import { useState } from 'react';
 import FunResume from '../assets/funResume.pdf';
 import BoringResume from '../assets/boringResume.pdf';
 import { Download } from "react-bootstrap-icons";
-import Headshot from "../assets/Bioimg.png";
+import Headshot from "../assets/bioimg.png";
 import "../css/about.css";
 
 
@@ -47,7 +47,7 @@ function About() {
   //function to create the slider
   function createSlider() {
       return (
-        <Box sx={{ width: 500 }}>
+        <Box id="slider-container" sx={{ width: 500 }}>
           
             <Slider
               className="bio-slider"
@@ -75,7 +75,12 @@ function About() {
           case 50:
               return "normal bio";
           case 75:
-              return "long bio";
+              return <div>
+                <p>Hi! My name is Tyla Jeffs, and trying my best to . I’m based in Hawaii and am finishing up my BS in Computer Science at Brigham Young University Hawaii. Fueled by my love of plants (indoor and outdoor 🌱), I’m currently working on a passion project to help foster greater biodiversity in the United States. </p>
+                <p>I’ve worked with several different tech stacks (as a student does) but I’ve worked most (extensively?) with the MERN stack (Mongo DB, Express js, React, Node js). I’m also familiar with Docker, Postgres, Vue js, Oauth, and B-crypt. </p>
+                <p>I’m an Enneagram 7 and an ENFP-T (I know, strange to find myself in software) and I’m happiest when I’m creating, exploring (collaborating?), and finding ways to make people’s lives easier. </p>
+                <p>To find out more about me, please check out my resumes down below (fun or boring? Up to you!).  Have a great day - however that looks for you -  and may your code always compile and your divs stay centered! ☀️🫶</p>
+              </div>;
           case 100:
               return "longest bio";
       }
@@ -100,9 +105,11 @@ function About() {
         </div>
         <div className="bio">
 
+          {createSlider()}
+
           {renderBio(sliderValue)}
 
-          {createSlider()}
+          
 
         </div>
       </div>

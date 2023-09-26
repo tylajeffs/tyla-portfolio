@@ -14,7 +14,7 @@
     color: white;
 }
 .light-mode .about-section {
-    background-color: white;
+    background-color: #FFFAEB;
     color: black;
 }
 
@@ -114,12 +114,15 @@
     display: inline-block;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 16px;
-
+    border-radius: 20px;
 }
 
 .button:hover {
     background-color: var(--light-orange);
     transform: scale(1.05);
     transition-duration: 0.5s;
+  }
+
+  #slider-container {
+    padding-bottom: 50px;
   }

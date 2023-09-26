@@ -2,6 +2,7 @@ import React from 'react'
 import portfolioVideo from '../assets/testVideo.mp4'
 import appVideo from '../assets/appvideo.mp4'
 import JavaFileSystemImage from '../assets/JavaFileSystem2.png'
+import RefugeeImage from '../assets/DependencyWheel.png'
 import '../css/project.css'
 
 
@@ -14,10 +15,12 @@ function Projects() {
                 <div className='column'>
 
                     <div className='project-div short-project green-column'>
+
+                    <img src={RefugeeImage} className='background-img'/>
                         
                         <div className='overlay'>
                             <h2 className='project-name'> <a href="https://github.com/tylajeffs/refugee-project" target="_blank" rel="noreferrer noopener">Refugee Data Visualization</a></h2>
-                            <p className='project-description'>A project that visualizes 2021 UNHCR refugee data using sankey diagrams</p>
+                            <p className='project-description'>A project that visualizes 2021 UNHCR refugee data using sankey diagrams and dependency wheels</p>
                             <div className='tag-row'>
                                 <div className='tag'>Javascript</div>
                                 <div className='tag'>CSS</div>
