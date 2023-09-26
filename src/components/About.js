@@ -69,20 +69,31 @@ function About() {
   function selectBioLength(param) {
       switch(param) {
           case 0:
-              return "shortest bio";
+              return "Tyla Jeffs. Computer Science. Plants. 🌱";
           case 25:
-              return "short bio";
+              return <div>
+              <p>Hi! I'm Tyla Jeffs. Currently finishing my BS in Computer Science, I am especially passionate about community gardens and coding.</p>
+            </div>;
           case 50:
-              return "normal bio";
+              return <div>
+              <p>Hi! My name is Tyla Jeffs. I’m based in Hawaii and am finishing up my BS in Computer Science this December. Fueled by my love of plants, I’m currently working on a passion project implementing technology into community gardens in the United States.</p>
+              <p>I’ve worked with several different technologies, but I’ve worked most with the MERN stack (Mongo DB, Express js, React, Node js). I’m an Enneagram 7 and an ENFP-T, and I’m happiest when I’m creating, exploring, and finding ways to make people’s lives easier.   </p>
+              <p>To find out more about me, please check out my resumes down below.  Have a great day, and may your code always compile and your divs stay centered! ☀️🫶</p>
+            </div>;
           case 75:
               return <div>
-                <p>Hi! My name is Tyla Jeffs, and trying my best to . I’m based in Hawaii and am finishing up my BS in Computer Science at Brigham Young University Hawaii. Fueled by my love of plants (indoor and outdoor 🌱), I’m currently working on a passion project to help foster greater biodiversity in the United States. </p>
-                <p>I’ve worked with several different tech stacks (as a student does) but I’ve worked most (extensively?) with the MERN stack (Mongo DB, Express js, React, Node js). I’m also familiar with Docker, Postgres, Vue js, Oauth, and B-crypt. </p>
-                <p>I’m an Enneagram 7 and an ENFP-T (I know, strange to find myself in software) and I’m happiest when I’m creating, exploring (collaborating?), and finding ways to make people’s lives easier. </p>
-                <p>To find out more about me, please check out my resumes down below (fun or boring? Up to you!).  Have a great day - however that looks for you -  and may your code always compile and your divs stay centered! ☀️🫶</p>
+                <p>Hi! My name is Tyla Jeffs. I’m based in Hawaii and am finishing up my BS in Computer Science at Brigham Young University Hawaii. Fueled by my love of plants (indoor and outdoor 🌱), I’m currently working on a passion project to help streamline the process of creating fertile soil for community gardens in the United States.</p>
+                <p>As a student, I’ve worked with several different technologies, but I’ve worked most with the MERN stack (Mongo DB, Express js, React, Node js).   </p>
+                <p>I’m an Enneagram 7 and an ENFP-T (I know, strange to find myself in software) and I’m happiest when I’m creating, exploring, and finding ways to make people’s lives easier.   </p>
+                <p>To find out more about me, please check out my resumes down below.  Have a great day - however that looks for you -  and may your code always compile and your divs stay centered! ☀️🫶</p>
               </div>;
           case 100:
-              return "longest bio";
+              return <div>
+              <p>Hi! My name is Tyla Jeffs. I’m based in Hawaii and am finishing up my BS in Computer Science at Brigham Young University Hawaii this December. Fueled by my love of plants (indoor and outdoor 🌱), I’m currently working on a passion project to help streamline the process of creating fertile soil for community gardens in the United States.</p>
+              <p>I’ve worked with several different technologies (as a student does) but I’ve worked most with the MERN stack (Mongo DB, Express js, React, Node js). I’m also familiar with Docker, Postgres, Vue js, Oauth, and B-crypt, among other things. </p>
+              <p>I’m an Enneagram 7 and an ENFP-T (I know, strange to find myself in software) and I’m happiest when I’m creating, exploring, and finding ways to make people’s lives easier.  </p>
+              <p>To find out more about me, please check out my resumes down below (fun or boring? Up to you!).  Have a great day - however that looks for you -  and may your code always compile and your divs stay centered! ☀️🫶</p>
+            </div>;
       }
   }
 
@@ -138,7 +149,7 @@ function About() {
 
         <a href="mailto:tylajeffs@gmail.com" target="_blank" rel="noreferrer noopener"><button className="button">tylajeffs@gmail.com</button></a>
 
-        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="button">github</button> </a>
+        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="button">GitHub</button> </a>
 
         
       </div>
