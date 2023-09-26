@@ -4,7 +4,9 @@
 
 .navbar {
   height: 70px;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .light-mode .navbar {
@@ -15,23 +17,20 @@
 }
 
 .nav-container {
-  max-width: 1100px;
   margin: 0 auto;
   padding: 0 10px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  
 }
 
 .nav-elements {
   text-align: center;
   float: none;
-  position: absolute;
-  top: 88%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  
+  
 }
 
 .nav-elements ul {

@@ -10,6 +10,8 @@
     --darker-blue: #456990;
     --dark-purple: #201335;
     --other-purple: #2E1E49;
+    
+    position: relative;
 }
 
 .title-font {
