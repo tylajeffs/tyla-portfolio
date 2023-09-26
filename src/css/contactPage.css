@@ -20,3 +20,15 @@
     padding-left: 5vw;
     padding-right: 5vw;
 }
+
+#contact-header {
+    font-size: 3.5em;
+    padding-bottom: 20px;
+    padding-left: 70px;
+}
+.light-mode #contact-header {
+    color: black;
+}
+.dark-mode #contact-header{
+    color: black;
+}

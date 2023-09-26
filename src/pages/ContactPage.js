@@ -8,12 +8,11 @@ import '../css/contactPage.css'
 function Contact() {
     return (
         <div className='contact-page'>
+            <h1 id='contact-header'>Contact.</h1>
             
             <div className='row contact-page-row'>
 
-                <div className="pic-section">
-                    <img src={Headshot} id="headshot-pic"></img>
-                </div>
+                
 
                 <div className="contact-text">
                     <p> Thanks for stopping by! </p>
@@ -37,12 +36,21 @@ function Contact() {
                         <button className="button"> <Download color="black" size={15}/> Resume (boring)</button>
                         </a>
 
+                        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="button">GitHub</button> </a>
+
+                        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="button">LinkedIn</button> </a>
+
+                        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="button">+1 385-288-7851</button> </a>
+
                         <a href="mailto:tylajeffs@gmail.com" target="_blank" rel="noreferrer noopener"><button className="button">tylajeffs@gmail.com</button></a>
 
-                        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="button">github</button> </a>
                     </div>
                     
                     
+                </div>
+
+                <div className="pic-section">
+                    <img src={Headshot} id="headshot-pic"></img>
                 </div>
 
             </div>

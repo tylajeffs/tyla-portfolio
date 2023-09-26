@@ -65,7 +65,7 @@ function About() {
     }
 
 
-  //function to decide which length of bio to render
+  //function to decide which length of bio to render and the text
   function selectBioLength(param) {
       switch(param) {
           case 0:
@@ -76,7 +76,7 @@ function About() {
             </div>;
           case 50:
               return <div>
-              <p>Hi! My name is Tyla Jeffs. I’m based in Hawaii and am finishing up my BS in Computer Science this December. Fueled by my love of plants, I’m currently working on a passion project implementing technology into community gardens in the United States.</p>
+              <p>Hi! My name is Tyla Jeffs. I’m based in Hawaii and am finishing up my BS in Computer Science this December. Fueled by my love of plants 🌱, I’m currently working on a passion project implementing technology into community gardens in the United States.</p>
               <p>I’ve worked with several different technologies, but I’ve worked most with the MERN stack (Mongo DB, Express js, React, Node js). I’m an Enneagram 7 and an ENFP-T, and I’m happiest when I’m creating, exploring, and finding ways to make people’s lives easier.   </p>
               <p>To find out more about me, please check out my resumes down below.  Have a great day, and may your code always compile and your divs stay centered! ☀️🫶</p>
             </div>;
@@ -115,6 +115,7 @@ function About() {
           <img src={Headshot} id="headshot-pic"></img>
         </div>
         <div className="bio">
+          <p className="slider-title">-- bio length --</p>
 
           {createSlider()}
 

@@ -5,10 +5,29 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    vertical-align: middle;
     height: 50px;
-    padding-left: 20px;
     padding-top: 10px;
+    vertical-align: center;
+}
+
+#name {
+    padding-left: 70px;
+    float: left;
+}
+
+#icons {
+    padding-right: 70px;
+    float: right; 
+}
+
+.icon {
+    margin-right: 40px;
+    color: black;
+}
+
+.icon:hover {
+    size: 20;
+    color: grey;
 }
 
 .dark-mode .footer {
@@ -20,3 +39,4 @@
     background-color: var(--light-yellow);
     color: black;
 }
+

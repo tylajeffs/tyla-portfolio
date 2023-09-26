@@ -6,15 +6,24 @@
   padding-right: 230px;
   padding-bottom: 15vh;
   padding-top: 15vh;
-  text-align: center;
-  
+  text-align: left;
 }
-
 .light-mode .projects-container {
   background-color: white;
 }
 .dark-mode .projects-container {
   background-color: black;
+}
+
+#project-header {
+  font-size: 3.5em;
+  padding-bottom: 70px;
+}
+.light-mode #project-header {
+  color: black;
+}
+.dark-mode #project-header {
+  color: white;
 }
 
 a {

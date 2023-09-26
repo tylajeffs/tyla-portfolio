@@ -9,6 +9,7 @@ import '../css/projects.css'
 function Projects() {
     return (
         <div className= 'projects-container' id="project-section">
+            <h1 id="project-header">Projects.</h1>
             <div className='row'>
                 <div className='projects-filter'></div>
 

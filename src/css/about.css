@@ -72,7 +72,7 @@
     display: flex;
     justify-content: space-around;
     width: 90vw;
-    margin-top: 6vh;
+    margin-top: 5vh;
 }
 
 .row {
@@ -98,6 +98,8 @@
     align-items: center;
     height: 61vh;
     padding-top: 50px;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 #headshot-pic {
@@ -130,4 +132,9 @@
 
   #slider-container {
     padding-bottom: 50px;
+  }
+
+  .slider-title {
+    color: grey;
+    font-size: 0.75em;
   }
