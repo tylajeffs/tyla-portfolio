@@ -10,9 +10,16 @@
     vertical-align: center;
 }
 
+
 #name {
     padding-left: 70px;
     float: left;
+}
+.light-mode #name {
+    color: black;
+}
+.dark-mode #name {
+    color: white;
 }
 
 #icons {

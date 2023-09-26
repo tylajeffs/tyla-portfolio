@@ -13,19 +13,22 @@ function DarkModeToggle() {
     //function to handle toggle click
     const handleClick=()=> {
         //switch theme to the opposite
-        setIsDark(!isDark)
+        setIsDark(!isDark) 
     }
 
     //check to see what state the theme is and apply changes to HTML
     useEffect(()=>{
+        var style = getComputedStyle(document.body);
         if(isDark===true){
             //add dark css
             document.body.classList.add("dark-mode");
             document.body.classList.remove("light-mode");
+            document.body.style.backgroundColor = style.getPropertyValue('--light-purple');
         } else {
             //delete dark css
             document.body.classList.remove("dark-mode");
             document.body.classList.add("light-mode");
+            document.body.style.backgroundColor = style.getPropertyValue('--light-yellow');
         }
     })
 
