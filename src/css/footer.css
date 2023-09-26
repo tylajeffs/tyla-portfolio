@@ -1,7 +1,5 @@
 @import "variables.css";
-.body {
-    position: relative;
-}
+
 .footer {
     position: absolute;
     left: 0;

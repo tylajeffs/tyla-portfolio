@@ -3,7 +3,7 @@ import portfolioVideo from '../assets/testVideo.mp4'
 import appVideo from '../assets/appvideo.mp4'
 import JavaFileSystemImage from '../assets/JavaFileSystem2.png'
 import RefugeeImage from '../assets/DependencyWheel.png'
-import '../css/project.css'
+import '../css/projects.css'
 
 
 function Projects() {
