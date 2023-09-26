@@ -1,6 +1,10 @@
 @import "variables.css";
 
 .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     vertical-align: middle;
     height: 50px;
     padding-left: 20px;
