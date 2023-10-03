@@ -138,7 +138,7 @@ function About() {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="button"> <Download color="black" size={15}/> Resume (fun)</button>
+          <button className="about-button"> <Download color="black" size={15}/> Resume (fun)</button>
         </a>
 
         <a
@@ -147,12 +147,12 @@ function About() {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="button"> <Download color="black" size={15}/> Resume (boring)</button>
+          <button className="about-button"> <Download color="black" size={15}/> Resume (boring)</button>
         </a>
 
-        <a href="mailto:tylajeffs@gmail.com" target="_blank" rel="noreferrer noopener"><button className="button">tylajeffs@gmail.com</button></a>
+        <a href="mailto:tylajeffs@gmail.com" target="_blank" rel="noreferrer noopener"><button className="about-button">tylajeffs@gmail.com</button></a>
 
-        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="button">GitHub</button> </a>
+        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="about-button">GitHub</button> </a>
 
         
       </div>

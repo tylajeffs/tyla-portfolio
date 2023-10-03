@@ -3,6 +3,7 @@ import Headshot from '../assets/bioimg.png'
 import FunResume from '../assets/funResume.pdf';
 import BoringResume from '../assets/boringResume.pdf';
 import { Download } from "react-bootstrap-icons";
+import ContactForm from '../components/ContactForm';
 import '../css/contactPage.css'
 
 function Contact() {
@@ -24,7 +25,7 @@ function Contact() {
                         target="_blank"
                         rel="noreferrer"
                         >
-                        <button className="button"> <Download color="black" size={15}/> Resume (fun)</button>
+                        <button className="contact-button"> <Download color="black" size={15}/> Resume (fun)</button>
                         </a>
 
                         <a
@@ -33,16 +34,16 @@ function Contact() {
                         target="_blank"
                         rel="noreferrer"
                         >
-                        <button className="button"> <Download color="black" size={15}/> Resume (boring)</button>
+                        <button className="contact-button"> <Download color="black" size={15}/> Resume (boring)</button>
                         </a>
 
-                        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="button">GitHub</button> </a>
+                        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="contact-button">GitHub</button> </a>
 
-                        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="button">LinkedIn</button> </a>
+                        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="contact-button">LinkedIn</button> </a>
 
-                        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="button">+1 385-288-7851</button> </a>
+                        <a href="https://github.com/tylajeffs" target="_blank" rel="noreferrer noopener"> <button className="contact-button">+1 385-288-7851</button> </a>
 
-                        <a href="mailto:tylajeffs@gmail.com" target="_blank" rel="noreferrer noopener"><button className="button">tylajeffs@gmail.com</button></a>
+                        <a href="mailto:tylajeffs@gmail.com" target="_blank" rel="noreferrer noopener"><button className="contact-button">tylajeffs@gmail.com</button></a>
 
                     </div>
                     
@@ -54,6 +55,8 @@ function Contact() {
                 </div>
 
             </div>
+
+            <ContactForm />
 
             
         </div>

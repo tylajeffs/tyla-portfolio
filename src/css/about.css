@@ -108,7 +108,7 @@
     width: 100%;
 }
 
-.button {
+.about-button {
     border: none;
     color: black;
     padding: 10px 20px;
@@ -119,31 +119,31 @@
     cursor: pointer;
     border-radius: 4px;
 }
-.light-mode .button {
+.light-mode .about-button {
     background-color: var(--light-yellow);
 }
-.dark-mode .button {
+.dark-mode .about-button {
     background-color: white;
 }
 
-.button:hover {
+.about-button:hover {
     background-color: var(--brighter-orange);
     transform: scale(1.02);
     transition-duration: 0.5s;
-  }
+}
 
-  #slider-container {
+#slider-container {
     padding-bottom: 50px;
-  }
+}
 
-  .slider-title {
+.slider-title {
     color: grey;
     font-size: 0.75em;
-  }
+}
 
-  #contact-heading {
+#contact-heading {
     margin-top: 30px;
     margin-bottom: 50px;
     font-size: 170%;
     font-weight: 700;
-  }
+}
