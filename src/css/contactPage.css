@@ -76,7 +76,8 @@
     background-color: var(--brighter-orange);
 }
 .dark-mode .contact-button {
-    background-color: white;
+    background-color: var(--deep-purple);
+    color: white;
 }
 
 .contact-button:hover {

@@ -17,27 +17,33 @@
   .form-control, 
   textarea {
     max-width: 600px;
+    margin-bottom: 20px; 
     color: black;
     letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
   }
   
   .send-button {
-    margin-top: 15px;
+    margin-top: 0px;
     height: 34px;
-    width: 200px;
+    width: 100px;
+    font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     transition: all .2s ease-in-out;
   }
   
-  .alt-send-button {
-    width: 600px;
-    height: 34px;
-    transition: all .2s ease-in-out;
-  }
+  
   
   .send-text {
     display: block;
     margin-top: 10px;
-    font: 700 12px 'Lato', sans-serif;
+    font: 700 12px 'Montserrat', sans-serif;
     letter-spacing: 2px;
   }
+
+  .form-control:focus {
+    border-color: grey;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+ 

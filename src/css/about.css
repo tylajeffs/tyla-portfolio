@@ -12,7 +12,7 @@
 }
 
 .dark-mode .about-section {
-    background-color: #342236;
+    background-color: var(--deep-purple);
     color: white;
 }
 .light-mode .about-section {

@@ -40,33 +40,35 @@ function ContactForm() {
 
         <form ref={form}onSubmit={handleSubmit} className="form-horizontal">
 
-            <label for="name">Name</label>
+            
             <input
-                    type="text"
+                    type="text" required
                     name="name"
                     className="form-control"
+                    placeholder="Name *"
                     ref={nameRef} 
                     tabIndex="1"
             />
 
 
-            <label for="email">Email</label>
+            
             <input
-                type="email"
+                type="email" required
                 name="email"
                 id="email"
                 className="form-control"
-                placeholder="example@corp.com"
+                placeholder="Email *"
                 ref={emailRef}
                 tabIndex="2"
             />
 
-            <label for="message">Message</label>
+            
             <textarea
-                placeholder="Start typing..."
+                placeholder="Message... *" required
                 className="form-control"
                 ref={messageRef}
                 name="message"
+                id='message-area'
             />
 
             <button type="submit" className="send-button">Send</button>
