@@ -1,10 +1,12 @@
 import React, { useRef} from 'react';
+import emailjs from '@emailjs/browser';
 import "../css/contact-form.css";
+
 
 
 function ContactForm() {
 
-
+    const form = useRef();
     const nameRef = useRef(null)
     const emailRef = useRef(null)
     const messageRef =  useRef(null)
@@ -17,14 +19,26 @@ function ContactForm() {
             message: messageRef.current.value
         }
         alert("tadaaa!: \n" + JSON.stringify(data) + "Your data 😎")
+
+        sendEmail()
     }
+
+    const sendEmail = (e) => {
+     
+        emailjs.sendForm('service_sgrte7g', 'template_lhxqmdm', form.current, 'VuX2OLGQUT0EzVc6w')
+          .then((result) => {
+              // show the user a success message
+          }, (error) => {
+              // show the user an error
+          });
+      };
 
 
   return (
 
     <div className="contact-form-container">
 
-        <form onSubmit={handleSubmit} className="form-horizontal">
+        <form ref={form}onSubmit={handleSubmit} className="form-horizontal">
 
             <label for="name">Name</label>
             <input
