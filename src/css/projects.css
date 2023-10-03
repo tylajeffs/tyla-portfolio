@@ -12,7 +12,8 @@
   background-color: white;
 }
 .dark-mode .projects-container {
-  background-color: black;
+  background-color: #0F0B0F;
+  
 }
 
 #project-header {
@@ -26,15 +27,15 @@
   color: white;
 }
 
-a {
+
+.project-name a {
   text-decoration: none;
   color: white;
   transition: all .2s;
-
 }
 
-a:hover {
-  color: var(--orange);
+.project-name a:hover {
+  color: var(--brighter-orange);
   transform: scale(1.1); 
 }
 

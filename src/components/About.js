@@ -115,7 +115,7 @@ function About() {
           <img src={Headshot} id="headshot-pic"></img>
         </div>
         <div className="bio">
-          <p className="slider-title">-- bio length --</p>
+          <p className="slider-title">-- Bio too long? Adjust the slider! --</p>
 
           {createSlider()}
 
@@ -126,6 +126,8 @@ function About() {
         </div>
       </div>
 
+
+      <div id="contact-heading">Curious? Learn more!</div>
 
       
 

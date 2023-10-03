@@ -3,6 +3,8 @@
 body {
     min-height: 100vh;
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -13,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 80vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .dark-mode .hero {
