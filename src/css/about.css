@@ -13,7 +13,7 @@
 
 .dark-mode .about-section {
     background-color: var(--deep-purple);
-    color: white;
+    color:   #DEDBDF;
 }
 .light-mode .about-section {
     background-color: white;
@@ -74,7 +74,7 @@
     display: flex;
     justify-content: space-around;
     width: 90vw;
-    margin-top: 5vh;
+    margin-top: 1vh;
 }
 
 .row {
@@ -123,7 +123,7 @@
     background-color: var(--light-yellow);
 }
 .dark-mode .about-button {
-    background-color: white;
+    background-color: var(--light-purple);
 }
 
 .about-button:hover {

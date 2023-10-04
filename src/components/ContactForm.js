@@ -45,7 +45,7 @@ function ContactForm() {
                     type="text" required
                     name="name"
                     className="form-control"
-                    placeholder="Name *"
+                    placeholder="*Name"
                     ref={nameRef} 
                     tabIndex="1"
             />
@@ -57,14 +57,14 @@ function ContactForm() {
                 name="email"
                 id="email"
                 className="form-control"
-                placeholder="Email *"
+                placeholder="*Email"
                 ref={emailRef}
                 tabIndex="2"
             />
 
             
             <textarea
-                placeholder="Message... *" required
+                placeholder="*Message..." required
                 className="form-control"
                 ref={messageRef}
                 name="message"

@@ -1,6 +1,7 @@
 import React from 'react'
 import portfolioVideo from '../assets/testVideo.mp4'
 import appVideo from '../assets/appvideo.mp4'
+import minesweeperVideo from '../assets/mine-video-cut.mp4'
 import JavaFileSystemImage from '../assets/JavaFileSystem2.png'
 import RefugeeImage from '../assets/refugeeimg.png'
 import '../css/projects.css'
@@ -68,6 +69,11 @@ function Projects() {
                 <div className='column'>
 
                     <div className='project-div tall-project minesweeper'>
+
+                        <video autoPlay loop muted className='background-video'>
+                            <source src={minesweeperVideo} type='video/mp4'/>
+                        </video>
+
                         <div className='overlay'>
                             <h2 className='project-name'> <a href="https://github.com/tylajeffs/minesweeper" target="_blank" rel="noreferrer noopener">Minesweeper</a></h2>
                             <p className='project-description'>Recreation of the classic minesweeper with fun themes</p>
