@@ -1,5 +1,5 @@
 import React from 'react'
-import Headshot from '../assets/bioimg.png'
+import Headshot from '../assets/orangeart.jpg'
 import FunResume from '../assets/funResume.pdf';
 import BoringResume from '../assets/boringResume.pdf';
 import { Download } from "react-bootstrap-icons";
@@ -35,7 +35,7 @@ function Contact() {
                         <div id='links-row-two'>
                             <a
                             href={FunResume}
-                            download="TylaJeffsCV(fun!)"
+                            download="TylaJeffsResume(fun!)"
                             target="_blank"
                             rel="noreferrer"
                             >
@@ -44,7 +44,7 @@ function Contact() {
 
                             <a
                             href={BoringResume}
-                            download="TylaJeffsCV(boring)"
+                            download="TylaJeffsResume(boring)"
                             target="_blank"
                             rel="noreferrer"
                             >

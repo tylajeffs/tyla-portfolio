@@ -5,7 +5,7 @@ import { useState } from 'react';
 import FunResume from '../assets/funResume.pdf';
 import BoringResume from '../assets/boringResume.pdf';
 import { Download } from "react-bootstrap-icons";
-import Headshot from "../assets/bioimg.png";
+import Headshot from "../assets/orangeart.jpg";
 import "../css/about.css";
 
 
