@@ -1,5 +1,5 @@
 import React from "react";
-import Headshot from "../assets/TylaFlowers.jpg";
+import Headshot from "../assets/tylaFlowers.png";
 import FunResume from "../assets/funResume.pdf";
 import BoringResume from "../assets/boringResume.pdf";
 import { Download } from "react-bootstrap-icons";
