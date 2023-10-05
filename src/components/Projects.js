@@ -18,7 +18,7 @@ function Projects() {
 
                     <div className='project-div short-project long-text'>
 
-                    <img src={RefugeeImage} className='background-img' id='refugeeimg'/>
+                    <img src={RefugeeImage} alt="" className='background-img' id='refugeeimg'/>
                         
                         <div className='overlay'>
                             <h2 className='project-name'> <a href="https://github.com/tylajeffs/refugee-project" target="_blank" rel="noreferrer noopener">Refugee Data Visualization</a></h2>
@@ -86,7 +86,7 @@ function Projects() {
 
                     <div className='project-div tall-project long-text'>
 
-                        <img src={JavaFileSystemImage} className='background-img'/>
+                        <img src={JavaFileSystemImage} alt="" className='background-img'/>
 
                         <div className='overlay'>
                             <h2 className='project-name'> <a href="https://github.com/tylajeffs/javaFileSystemTreeMap" target="_blank" rel="noreferrer noopener">File System Tree Maps</a></h2>
