@@ -193,7 +193,7 @@ function About() {
       <div className="contact-section">
         <a
           href={FunResume}
-          download="TylaJeffsCV(fun!)"
+          download="TylaJeffsResume(fun!)"
           target="_blank"
           rel="noreferrer"
         >
@@ -209,7 +209,7 @@ function About() {
 
         <a
           href={BoringResume}
-          download="TylaJeffsCV(boring)"
+          download="TylaJeffsResume(boring)"
           target="_blank"
           rel="noreferrer"
         >
