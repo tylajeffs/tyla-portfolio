@@ -60,10 +60,12 @@
 /* LIGHT MODE change the color of the slider text labels */
 .light-mode .bio-slider .MuiSlider-markLabel {
   color: black !important;
+  font-family: "Montserrat", sans-serif;
 }
 /* DARK MODE change the color of the slider text labels */
 .dark-mode .bio-slider .MuiSlider-markLabel {
   color: white !important;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-section {
@@ -85,7 +87,6 @@
   flex-direction: column;
   flex-basis: 100%;
   flex: 1.25;
-
   margin-top: 50px;
 }
 

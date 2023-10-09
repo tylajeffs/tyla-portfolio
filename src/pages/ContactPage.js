@@ -38,7 +38,7 @@ function Contact() {
               </a>
 
               <a
-                href="https://github.com/tylajeffs"
+                href="https://www.linkedin.com/in/tylajeffs/"
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -47,7 +47,7 @@ function Contact() {
               </a>
 
               <a
-                href="https://github.com/tylajeffs"
+                href="tel:3852887851"
                 target="_blank"
                 rel="noreferrer noopener"
               >

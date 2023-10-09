@@ -1,6 +1,5 @@
 @import "variables.css";
 
-
 .projects-container {
   padding-left: 255px;
   padding-right: 230px;
@@ -12,8 +11,7 @@
   background-color: white;
 }
 .dark-mode .projects-container {
-  background-color: #0F0B0F;
-  
+  background-color: #0f0b0f;
 }
 
 #project-header {
@@ -27,16 +25,17 @@
   color: white;
 }
 
-
 .project-name a {
   text-decoration: none;
   color: white;
-  transition: all .2s;
+  transition: all 0.2s;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .project-name a:hover {
   color: var(--brighter-orange);
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 
 .row {
@@ -45,7 +44,7 @@
   flex-wrap: wrap;
   width: 100%;
 }
-  
+
 .column {
   display: flex;
   flex-direction: column;
@@ -54,14 +53,11 @@
   text-align: left;
 }
 
-
-
 .project-div {
   position: relative;
   border-radius: 8px;
   margin-bottom: 25px;
   color: white;
-  
 }
 
 .tag-row {
@@ -76,9 +72,6 @@
   margin-right: 10px;
 }
 
-
-
-
 .overlay {
   position: absolute;
   z-index: 10;
@@ -88,31 +81,32 @@
   overflow: hidden;
   width: 100%;
   opacity: 0%;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .tall-project .overlay {
   height: 30%;
 }
 
-
 .short-project .overlay {
   height: 45%;
 }
 
 .project-div:after {
-  content:'\A';
-  position:absolute;
-  width:100%; height:100%;
-  top:0; left:0;
+  content: "\A";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
   border-radius: 8px;
-  background:linear-gradient(to bottom, transparent 0%, black 120%);
-  opacity:0;
+  background: linear-gradient(to bottom, transparent 0%, black 120%);
+  opacity: 0;
   transition: all 0.5s;
   -webkit-transition: all 0.2s;
 }
 .project-div:hover:after {
-  opacity:1;
+  opacity: 1;
 }
 .tall-project:hover .overlay {
   height: 35%;
@@ -157,11 +151,6 @@
   border-radius: 8px;
 }
 
-.minesweeper {
-  background-color: lightblue;
-}
-
 .project-6 {
   background-color: blue;
 }
-

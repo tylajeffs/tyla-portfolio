@@ -1,83 +1,79 @@
 #headshot-pic {
-    width: 100%;
+  width: 100%;
 }
 
 #thanks {
-    padding-left: 75px;
+  padding-left: 75px;
 }
 
 .contact-page {
-    margin-top: 2vh;
-    height: 200vh;
+  margin-top: 2vh;
+  height: 100%;
 }
 
 .contact-page-container {
-    padding-left: 5vw;
-    padding-right: 5vw;
-    width: 100%;
-    display: flex;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  width: 100%;
+  display: flex;
 }
 
 .column-one {
-    width: 55%;
-    
+  width: 55%;
 }
 
 .column-two {
-    width: 45%;
+  width: 45%;
 }
 
 #form-container {
-    padding-bottom: 50px;
-    padding-top: 50px;
+  padding-bottom: 50px;
+  padding-top: 30px;
 }
 
-
-
 #links-row-one {
-    padding-left: 55px;
-    padding-bottom: 10px;
+  padding-left: 55px;
+  padding-bottom: 10px;
 }
 
 #links-row-two {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #contact-header {
-    font-size: 3.5em;
-    padding-bottom: 20px;
-    padding-left: 70px;
+  font-size: 3.5em;
+  padding-bottom: 20px;
+  padding-left: 70px;
 }
 .light-mode #contact-header {
-    color: black;
+  color: black;
 }
-.dark-mode #contact-header{
-    color: black;
+.dark-mode #contact-header {
+  color: black;
 }
-
 
 .contact-button {
-    border: none;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 .light-mode .contact-button {
-    background-color: var(--brighter-orange);
+  background-color: var(--brighter-orange);
 }
 .dark-mode .contact-button {
-    background-color: var(--deep-purple);
-    color: white;
+  background-color: var(--deep-purple);
+  color: white;
 }
 
 .contact-button:hover {
-    background-color: var(--brighter-orange);
-    transform: scale(1.02);
-    transition-duration: 0.5s;
+  background-color: var(--brighter-orange);
+  transform: scale(1.02);
+  transition-duration: 0.5s;
 }
