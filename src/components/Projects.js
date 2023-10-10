@@ -1,8 +1,9 @@
 import React from "react";
-import portfolioVideo from "../assets/testVideo.mp4";
+import portfolioVideo from "../assets/portfolioVideo.mp4";
 import appVideo from "../assets/appvideo.mp4";
 import minesweeperVideo from "../assets/mine-video-cut.mp4";
 import JavaFileSystemImage from "../assets/JavaFileSystem2.png";
+import FlowerShopImage from "../assets/flowerSite.png";
 import RefugeeImage from "../assets/refugeeimg.png";
 import "../css/projects.css";
 
@@ -28,7 +29,7 @@ function Projects() {
 
             <div className="overlay">
               <h2
-                className="project-name"
+                className="project-name smaller-title"
                 id="refugee"
               >
                 {" "}
@@ -46,8 +47,9 @@ function Projects() {
                 diagrams and dependency wheels
               </p>
               <div className="tag-row">
-                <div className="tag">Javascript</div>
+                <div className="tag">React</div>
                 <div className="tag">CSS</div>
+                <div className="tag">Highcharts</div>
               </div>
             </div>
           </div>
@@ -183,28 +185,39 @@ function Projects() {
               </p>
               <div className="tag-row">
                 <div className="tag">Java</div>
-                <div className="tag">CSS</div>
+                <div className="tag">VS Code</div>
               </div>
             </div>
           </div>
 
           {/* ADD LINK HERE */}
           <div className="project-div short-project project-6 long-text">
+            <img
+              src={FlowerShopImage}
+              alt=""
+              className="background-img"
+            />
+
             <div className="overlay">
-              <h2 className="project-name">
+              <h2 className="project-name smaller-title">
                 {" "}
                 <a
                   href="#"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  Flower Shop eCommerce
+                  Flower Shop Authentication
                 </a>
               </h2>
-              <p className="project-description">description</p>
+              <p className="project-description">
+                Website that allows users to sign up, log in, create/delete
+                packages, and log out
+              </p>
               <div className="tag-row">
-                <div className="tag">Java</div>
-                <div className="tag">CSS</div>
+                <div className="tag">Ruby on Rails</div>
+                <div className="tag">Sass</div>
+                <div className="tag">AWS</div>
+                <div className="tag">OAuth</div>
               </div>
             </div>
           </div>

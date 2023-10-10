@@ -33,6 +33,10 @@
   font-weight: bold;
 }
 
+.project-name.smaller-title a {
+  font-size: 0.85em !important;
+}
+
 .project-name a:hover {
   color: var(--brighter-orange);
   transform: scale(1.1);
