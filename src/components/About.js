@@ -88,7 +88,7 @@ function About() {
             </p>
             <p>
               I’ve worked with several different technologies, but I’ve worked
-              most with the MERN stack (Mongo DB, Express js, React, Node js).
+              most with the MERN stack (Mongo DB, Express.js, React, Node.js).
               I’m an Enneagram 7 and an ENFP-T, and I’m happiest when I’m
               creating, exploring, and finding ways to make people’s lives
               easier.{" "}
@@ -112,8 +112,8 @@ function About() {
             </p>
             <p>
               As a student, I’ve worked with several different technologies, but
-              I’ve worked most with the MERN stack (Mongo DB, Express js, React,
-              Node js).{" "}
+              I’ve worked most with the MERN stack (Mongo DB, Express.js, React,
+              Node.js).{" "}
             </p>
             <p>
               I’m an Enneagram 7 and an ENFP-T (I know, strange to find myself
@@ -141,8 +141,8 @@ function About() {
             <p>
               I’ve worked with several different technologies (as a student
               does) but I’ve worked most with the MERN stack (Mongo DB, Express
-              js, React, Node js). I’m also familiar with Docker, Postgres, Vue
-              js, Oauth, and B-crypt, among other things.{" "}
+              .js, React, Node.js). I’m also familiar with Docker, Postgres, Vue
+              .js, Oauth, and B-crypt, among other things.{" "}
             </p>
             <p>
               I’m an Enneagram 7 and an ENFP-T (I know, strange to find myself
