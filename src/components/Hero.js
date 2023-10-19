@@ -7,18 +7,22 @@ import clouddr from "../assets/dark-mode-cloud-right.png";
 
 function Hero() {
   return (
-    <div className="hero">
-      <h1 className="hero-text title-font">Hey! I'm Tyla</h1>
-      <img
-        src={cloudll}
-        alt=""
-        className="floating-left"
-      />
-      <img
-        src={cloudlr}
-        alt=""
-        className="floating-right"
-      />
+    <div>
+      <div className="hero">
+        <h1 className="hero-text title-font">Hey! I'm Tyla</h1>
+        <img
+          src={cloudll}
+          alt=""
+          className="floating-left"
+        />
+        <img
+          src={cloudlr}
+          alt=""
+          className="floating-right"
+        />
+      </div>
+
+      <p id="reactText">Made with React ;)</p>
     </div>
   );
 }

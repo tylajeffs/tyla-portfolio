@@ -202,7 +202,7 @@ function Projects() {
               <h2 className="project-name smaller-title">
                 {" "}
                 <a
-                  href="#"
+                  href="https://github.com/tylajeffs/FlowerApplication"
                   target="_blank"
                   rel="noreferrer noopener"
                 >

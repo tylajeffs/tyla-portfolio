@@ -1,77 +1,90 @@
 @import "variables.css";
 
 body {
-    min-height: 100vh;
-    overflow-x: hidden;
-    font-family: 'Montserrat', sans-serif;
-
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 
-
-
 .hero {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    font-family: 'Montserrat', sans-serif;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 650px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .dark-mode .hero {
-    background-color: var(--light-purple);
+  background-color: var(--light-purple);
 }
 .light-mode .hero {
-    background-color: var(--light-yellow);
+  background-color: var(--light-yellow);
+}
+
+#reactText {
+  font-size: 0.8em;
+  padding-left: 20px;
+  color: black;
 }
 
 .hero-text {
-    position: absolute;
-    font-size: 2.5em; 
+  position: absolute;
+  font-size: 2.5em;
 }
 
 .dark-mode .hero-text {
-    color: black;
+  color: black;
 }
 
 /* SHOULD WE CHANGE COLOR HERE?*/
 .light-mode .hero-text {
-    color: black;
+  color: black;
 }
 
 .hero img {
-    position: absolute;
-    top: -37vh;
-    left: 0;
-    width: 100%;
-    pointer-events: none;
+  position: absolute;
+  top: -37vh;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
 }
 
-
-
-.floating-left { 
-    animation-name: floating-left;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+.floating-left {
+  animation-name: floating-left;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 @keyframes floating-left {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(30px, 0); }
-    100%   { transform: translate(-0px, 0); }   
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(30px, 0);
+  }
+  100% {
+    transform: translate(-0px, 0);
+  }
 }
 
-.floating-right { 
-    animation-name: floating-right;
-    animation-duration: 9s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-top: 5px;
+.floating-right {
+  animation-name: floating-right;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-top: 5px;
 }
 
 @keyframes floating-right {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(-30px, 0); }
-    100%   { transform: translate(-0px, 0); }   
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(-30px, 0);
+  }
+  100% {
+    transform: translate(-0px, 0);
+  }
 }
