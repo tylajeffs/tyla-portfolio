@@ -71,8 +71,8 @@
 .contact-section {
   display: flex;
   justify-content: space-around;
-  width: 90vw;
-  margin-top: 1vh;
+  width: 90%;
+  margin-top: 20px;
 }
 
 .row {
@@ -80,7 +80,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 .pic-section {
@@ -97,10 +97,10 @@
   flex-basis: 100%;
   flex: 2.25;
   align-items: center;
-  height: 61vh;
+  height: 550px;
   padding-top: 50px;
-  padding-left: 3vw;
-  padding-right: 3vw;
+  padding-left: 20px;
+  padding-right: 30px;
 }
 
 #headshot-pic {

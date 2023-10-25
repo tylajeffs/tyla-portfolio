@@ -3,8 +3,8 @@
 .projects-container {
   padding-left: 255px;
   padding-right: 230px;
-  padding-bottom: 15vh;
-  padding-top: 15vh;
+  padding-bottom: 150px;
+  padding-top: 100px;
   text-align: left;
 }
 .light-mode .projects-container {
@@ -131,12 +131,12 @@
 
 .tall-project {
   position: relative;
-  height: 55vh;
+  height: 450px;
 }
 
 .short-project {
   position: relative;
-  height: 35vh;
+  height: 280px;
 }
 
 .background-video {

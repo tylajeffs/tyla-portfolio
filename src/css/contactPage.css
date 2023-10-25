@@ -1,5 +1,6 @@
 #headshot-pic {
   width: 100%;
+  margin-top: -100px;
 }
 
 #thanks {
@@ -7,13 +8,13 @@
 }
 
 .contact-page {
-  margin-top: 2vh;
+  margin-top: 10px;
   height: 100%;
 }
 
 .contact-page-container {
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 100%;
   display: flex;
 }
