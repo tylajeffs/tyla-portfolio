@@ -175,7 +175,7 @@ function About() {
         <div className="pic-section">
           <img
             src={Headshot}
-            id="headshot-pic"
+            id="headshot-picture"
             alt=""
           ></img>
         </div>
