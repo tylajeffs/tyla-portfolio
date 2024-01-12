@@ -72,8 +72,8 @@ function About() {
         return (
           <div>
             <p>
-              Hi! I'm Tyla Jeffs. Currently finishing my BS in Computer Science,
-              I am especially passionate about community gardens and coding.
+              Hi! I'm Tyla Jeffs. Just finished my BS in Computer Science, I am
+              especially passionate about community gardens and coding.
             </p>
           </div>
         );
@@ -81,10 +81,10 @@ function About() {
         return (
           <div>
             <p>
-              Hi! My name is Tyla Jeffs. I’m based in Hawaii and am finishing up
-              my BS in Computer Science this December. Fueled by my love of
-              plants 🌱, I’m currently working on a passion project implementing
-              technology into community gardens in the United States.
+              Hi! My name is Tyla Jeffs. I’m based in Hawaii and just finished
+              up my BS in Computer Science. Fueled by my love of plants 🌱, I’m
+              currently working on a passion project implementing technology
+              into community gardens in the United States.
             </p>
             <p>
               I’ve worked with several different technologies, but I’ve worked
@@ -104,8 +104,8 @@ function About() {
         return (
           <div>
             <p>
-              Hi! My name is Tyla Jeffs. I’m based in Hawaii and am finishing up
-              my BS in Computer Science at Brigham Young University Hawaii.
+              Hi! My name is Tyla Jeffs. I’m based in Hawaii and just finished
+              up my BS in Computer Science at Brigham Young University Hawaii.
               Fueled by my love of plants (indoor and outdoor 🌱), I’m currently
               working on a passion project to help streamline the process of
               creating fertile soil for community gardens in the United States.
@@ -131,12 +131,11 @@ function About() {
         return (
           <div>
             <p>
-              Hi! My name is Tyla Jeffs. I’m based in Hawaii and am finishing up
-              my BS in Computer Science at Brigham Young University Hawaii this
-              December. Fueled by my love of plants (indoor and outdoor 🌱), I’m
-              currently working on a passion project to help streamline the
-              process of creating fertile soil for community gardens in the
-              United States.
+              Hi! My name is Tyla Jeffs. I’m based in Hawaii and just finished
+              up my BS in Computer Science at Brigham Young University Hawaii.
+              Fueled by my love of plants (indoor and outdoor 🌱), I’m currently
+              working on a passion project to help streamline the process of
+              creating fertile soil for community gardens in the United States.
             </p>
             <p>
               I’ve worked with several different technologies (as a student
