@@ -8,7 +8,6 @@ import Divider from '../components/Divider'
 function Home() {
     return (
         <div>
-            <Hero />
 
             <AboutComponent />
 
