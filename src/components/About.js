@@ -196,7 +196,7 @@ function About() {
           rel="noreferrer noopener"
         >
           {" "}
-          <button className="contact-button">LinkedIn</button>{" "}
+          <button className="about-button">LinkedIn</button>{" "}
         </a>
 
         <a
