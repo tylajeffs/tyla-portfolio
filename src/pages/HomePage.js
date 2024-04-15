@@ -8,15 +8,11 @@ import Divider from '../components/Divider'
 function Home() {
     return (
         <div>
-
             <AboutComponent />
 
             <Divider />
             
             <ProjectComponent />
-
-
-
         </div>
     )
 }

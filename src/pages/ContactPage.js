@@ -1,7 +1,6 @@
 import React from "react";
 import Headshot from "../assets/tylaFlowers.png";
-import FunResume from "../assets/funResume.pdf";
-import BoringResume from "../assets/boringResume.pdf";
+import Resume from "../assets/TylaJeffsResume.pdf";
 import { Download } from "react-bootstrap-icons";
 import ContactForm from "../components/ContactForm";
 import "../css/contactPage.css";
@@ -58,8 +57,8 @@ function Contact() {
 
             <div id="links-row-two">
               <a
-                href={FunResume}
-                download="TylaJeffsResume(fun!)"
+                href={Resume}
+                download="TylaJeffsResume"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -69,23 +68,7 @@ function Contact() {
                     color="black"
                     size={15}
                   />{" "}
-                  Resume (fun)
-                </button>
-              </a>
-
-              <a
-                href={BoringResume}
-                download="TylaJeffsResume(boring)"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <button className="contact-button">
-                  {" "}
-                  <Download
-                    color="black"
-                    size={15}
-                  />{" "}
-                  Resume (boring)
+                  Resume
                 </button>
               </a>
             </div>

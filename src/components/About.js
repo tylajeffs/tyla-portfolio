@@ -2,8 +2,7 @@ import React from "react";
 import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 import { useState } from "react";
-import FunResume from "../assets/funResume.pdf";
-import BoringResume from "../assets/boringResume.pdf";
+import Resume from "../assets/TylaJeffsResume.pdf";
 import { Download } from "react-bootstrap-icons";
 import Headshot from "../assets/tylaFlowers.png";
 import "../css/about.css";
@@ -190,25 +189,19 @@ function About() {
       <div id="contact-heading">Curious? Learn more!</div>
 
       <div className="contact-section">
+
         <a
-          href={FunResume}
-          download="TylaJeffsResume(fun!)"
+          href="https://www.linkedin.com/in/tylajeffs/"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
         >
-          <button className="about-button">
-            {" "}
-            <Download
-              color="black"
-              size={15}
-            />{" "}
-            Resume (fun)
-          </button>
+          {" "}
+          <button className="contact-button">LinkedIn</button>{" "}
         </a>
 
         <a
-          href={BoringResume}
-          download="TylaJeffsResume(boring)"
+          href={Resume}
+          download="TylaJeffsResume"
           target="_blank"
           rel="noreferrer"
         >
@@ -218,7 +211,7 @@ function About() {
               color="black"
               size={15}
             />{" "}
-            Resume (boring)
+            Resume
           </button>
         </a>
 
